@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Card content="This is a card!"></Card>
+      <Card content="This is a card!"></Card> 
     </div>
   );
 }
