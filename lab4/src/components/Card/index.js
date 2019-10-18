@@ -9,9 +9,11 @@ class Card extends React.Component {
         return (
         <div className="card">
             <span className="close"
-            onClick={this.props.dataclick}
+            onClick={this.props.clickremove}
             datatitle={this.props.title}>&times;</span>
-        {this.props.content}</div>
+            <h1>{this.props.title}</h1>
+            <h3>{this.props.content}</h3>
+        </div>
         );
     }
 

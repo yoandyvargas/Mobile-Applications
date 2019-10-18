@@ -8,7 +8,7 @@ class CardList extends React.Component {
     constructor(props) {
         super(props);
 
-        //Update 
+        //Update and Passing data.json into cards?
         this.state = {
             cards: data.cards
         };
@@ -16,6 +16,7 @@ class CardList extends React.Component {
 
 
     remove = event => {
+        
         let datatitle = event.target.getAttribute("datatitle");
 
         let localCards = this.state.cards;
@@ -36,7 +37,7 @@ class CardList extends React.Component {
                             key={index}
                             title={card.title}
                             content={card.content}
-                            dataclick={this.remove} />
+                            clickremove={this.remove} />
                     })
                 }
             </div>
