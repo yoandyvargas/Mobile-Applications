@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card/index.js';
+import CardList from "./components/CardList/index.js";
 
 function App() {
   return (
     <div className="App">
 
-      <Card content="This is a card!"></Card> 
+      <CardList />
     </div>
   );
 }
