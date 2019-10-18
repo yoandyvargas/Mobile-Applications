@@ -31,7 +31,7 @@ class CardList extends React.Component {
     render() {
         return (
             <div>
-                {
+                {   //Passing attributes into card with an arrow function?
                     this.state.cards.map((card, index) => {
                         return <Card
                             key={index}
