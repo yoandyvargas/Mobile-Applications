@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Card/";
 import data from "../../data.json";
+import Weather from "../weather";
 //CardList does cards
 
 class CardList extends React.Component {
@@ -15,18 +16,6 @@ class CardList extends React.Component {
     }
 
 
-    remove = event => {
-        
-        let datatitle = event.target.getAttribute("datatitle");
-
-        let localCards = this.state.cards;
-
-        let changedCards = localCards.filter(card => {
-            return card.title !== datatitle;
-        });
-
-        this.setState({ cards: changedCards });
-    }
 
     render() {
         return (
@@ -35,9 +24,7 @@ class CardList extends React.Component {
                     this.state.cards.map((card, index) => {
                         return <Card
                             key={index}
-                            title={card.title}
-                            content={card.content}
-                            clickremove={this.remove} />
+                            />
                     })
                 }
             </div>
@@ -47,7 +34,6 @@ class CardList extends React.Component {
 
 // --- Assignment Requirements ---
 // Dynamically Create each Card
-// Pass a click listener function so that each card can remove themselves
 // Use attributes to pass data to each Card -- key index
 // import data.json and use the data
 
