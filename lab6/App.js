@@ -10,7 +10,7 @@ class App extends React.Component {
         <Text style={styles.description}>
           This was one of the first PC video games I ever played.
           I ended up getting very good and competing at high levels.
-          I made many friends and it was an adrenaline pumping fun game.
+          I made many friends and it is an adrenaline pumping fun time.
          </Text>
       </View>
     );
