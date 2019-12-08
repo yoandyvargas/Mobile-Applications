@@ -1,0 +1,30 @@
+#form {
+        background: lightslategray;
+        text-align: center;
+        box-shadow: 2px 2px 15px black;
+        width: 300px;
+        margin: 0 auto;
+}
+
+.addtitle {
+        text-transform: uppercase;
+        color: white;
+}
+
+.button {
+        background-color: lightgrey;
+        border-radius: 12px;
+        width: 100px;
+}
+
+.formstyle {
+        margin: 40px;
+}
+
+h3 {
+        padding: 20px;
+}
+
+form {
+        padding: 10px;
+}

@@ -1,0 +1,16 @@
+.delete {
+    margin-left: 90%;
+    font-size: 24px;
+}
+
+.contacts {
+    background: lightslategray;
+    text-align: center;
+    box-shadow: 2px 2px 15px black;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contactstitle{
+    text-transform: uppercase;
+}
